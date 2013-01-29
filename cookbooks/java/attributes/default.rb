@@ -41,7 +41,8 @@ else
 end
 
 # if you change this to true, you can download directly from Oracle
-default['java']['oracle']['accept_oracle_download_terms'] = false
+# We at FAIMS accept the oracle licence terms for our Crowd server
+default['java']['oracle']['accept_oracle_download_terms'] = true
 
 # direct download paths for oracle, you have been warned!
 
